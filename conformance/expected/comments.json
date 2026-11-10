@@ -1,0 +1,67 @@
+{
+  "kind": "Statements",
+  "file": "cases/comments.tenn",
+  "children": [
+    {
+      "kind": "Command",
+      "name": "a",
+      "pos": {
+        "file": "cases/comments.tenn",
+        "line": 1,
+        "col": 0
+      },
+      "args": [
+        {
+          "kind": "IntLit",
+          "value": "1",
+          "pos": {
+            "file": "cases/comments.tenn",
+            "line": 1,
+            "col": 2
+          }
+        }
+      ]
+    },
+    {
+      "kind": "Command",
+      "name": "b",
+      "pos": {
+        "file": "cases/comments.tenn",
+        "line": 2,
+        "col": 20
+      },
+      "args": [
+        {
+          "kind": "IntLit",
+          "value": "2",
+          "pos": {
+            "file": "cases/comments.tenn",
+            "line": 2,
+            "col": 22
+          }
+        }
+      ]
+    },
+    {
+      "kind": "Command",
+      "name": "c",
+      "pos": {
+        "file": "cases/comments.tenn",
+        "line": 4,
+        "col": 0
+      },
+      "args": [
+        {
+          "kind": "IntLit",
+          "value": "3",
+          "pos": {
+            "file": "cases/comments.tenn",
+            "line": 4,
+            "col": 2
+          }
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

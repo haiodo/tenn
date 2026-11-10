@@ -1,0 +1,13 @@
+# Node
+node_modules/
+dist/
+
+# Swift
+.build/
+.swiftpm/
+
+# Go
+*.test
+
+# Editors / OS
+.DS_Store

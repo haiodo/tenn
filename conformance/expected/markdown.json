@@ -1,0 +1,64 @@
+{
+  "kind": "Statements",
+  "file": "cases/markdown.tenn",
+  "children": [
+    {
+      "kind": "Command",
+      "name": "doc",
+      "pos": {
+        "file": "cases/markdown.tenn",
+        "line": 1,
+        "col": 0
+      },
+      "args": [
+        {
+          "kind": "MarkdownLit",
+          "value": "**bold** text",
+          "pos": {
+            "file": "cases/markdown.tenn",
+            "line": 1,
+            "col": 6
+          }
+        }
+      ]
+    },
+    {
+      "kind": "Command",
+      "name": "body",
+      "pos": {
+        "file": "cases/markdown.tenn",
+        "line": 2,
+        "col": 0
+      },
+      "args": [],
+      "block": [
+        {
+          "kind": "Command",
+          "name": "text",
+          "pos": {
+            "file": "cases/markdown.tenn",
+            "line": 3,
+            "col": 4
+          },
+          "args": [
+            {
+              "kind": "MarkdownLit",
+              "value": "\n        * item 1\n        * item `code`\n    ",
+              "pos": {
+                "file": "cases/markdown.tenn",
+                "line": 3,
+                "col": 11
+              }
+            }
+          ]
+        }
+      ],
+      "blockPos": {
+        "file": "cases/markdown.tenn",
+        "line": 2,
+        "col": 5
+      }
+    }
+  ],
+  "errors": []
+}

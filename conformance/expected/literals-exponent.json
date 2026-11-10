@@ -1,0 +1,45 @@
+{
+  "kind": "Statements",
+  "file": "cases/literals-exponent.tenn",
+  "children": [
+    {
+      "kind": "Command",
+      "name": "n",
+      "pos": {
+        "file": "cases/literals-exponent.tenn",
+        "line": 1,
+        "col": 0
+      },
+      "args": [
+        {
+          "kind": "Ident",
+          "value": "1e5",
+          "pos": {
+            "file": "cases/literals-exponent.tenn",
+            "line": 1,
+            "col": 2
+          }
+        },
+        {
+          "kind": "Ident",
+          "value": "1.5e-3",
+          "pos": {
+            "file": "cases/literals-exponent.tenn",
+            "line": 1,
+            "col": 6
+          }
+        },
+        {
+          "kind": "Ident",
+          "value": "-2E+4",
+          "pos": {
+            "file": "cases/literals-exponent.tenn",
+            "line": 1,
+            "col": 13
+          }
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

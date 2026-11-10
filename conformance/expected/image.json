@@ -1,0 +1,56 @@
+{
+  "kind": "Statements",
+  "file": "cases/image.tenn",
+  "children": [
+    {
+      "kind": "Command",
+      "name": "img",
+      "pos": {
+        "file": "cases/image.tenn",
+        "line": 1,
+        "col": 0
+      },
+      "args": [
+        {
+          "kind": "Image",
+          "value": "AAAA",
+          "pos": {
+            "file": "cases/image.tenn",
+            "line": 1,
+            "col": 6
+          }
+        }
+      ]
+    },
+    {
+      "kind": "Command",
+      "name": "image",
+      "pos": {
+        "file": "cases/image.tenn",
+        "line": 2,
+        "col": 0
+      },
+      "args": [
+        {
+          "kind": "StringLit",
+          "value": "pic.png",
+          "pos": {
+            "file": "cases/image.tenn",
+            "line": 2,
+            "col": 7
+          }
+        },
+        {
+          "kind": "Image",
+          "value": "iVBORw0KGgo=",
+          "pos": {
+            "file": "cases/image.tenn",
+            "line": 2,
+            "col": 18
+          }
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

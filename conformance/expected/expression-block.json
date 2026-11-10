@@ -1,0 +1,47 @@
+{
+  "kind": "Statements",
+  "file": "cases/expression-block.tenn",
+  "children": [
+    {
+      "kind": "Command",
+      "name": "x",
+      "pos": {
+        "file": "cases/expression-block.tenn",
+        "line": 1,
+        "col": 0
+      },
+      "args": [
+        {
+          "kind": "ExpressionBlock",
+          "value": "var a = 1; a",
+          "pos": {
+            "file": "cases/expression-block.tenn",
+            "line": 1,
+            "col": 4
+          }
+        }
+      ]
+    },
+    {
+      "kind": "Command",
+      "name": "y",
+      "pos": {
+        "file": "cases/expression-block.tenn",
+        "line": 2,
+        "col": 0
+      },
+      "args": [
+        {
+          "kind": "ExpressionBlock",
+          "value": "\n  var s = 0;\n  for (var i = 0; i < 3; i++) { s += i }\n  s\n",
+          "pos": {
+            "file": "cases/expression-block.tenn",
+            "line": 2,
+            "col": 4
+          }
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

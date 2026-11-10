@@ -1,0 +1,67 @@
+{
+  "kind": "Statements",
+  "file": "cases/strings-basic.tenn",
+  "children": [
+    {
+      "kind": "Command",
+      "name": "name",
+      "pos": {
+        "file": "cases/strings-basic.tenn",
+        "line": 1,
+        "col": 0
+      },
+      "args": [
+        {
+          "kind": "StringLit",
+          "value": "hello world",
+          "pos": {
+            "file": "cases/strings-basic.tenn",
+            "line": 1,
+            "col": 6
+          }
+        }
+      ]
+    },
+    {
+      "kind": "Command",
+      "name": "empty",
+      "pos": {
+        "file": "cases/strings-basic.tenn",
+        "line": 2,
+        "col": 0
+      },
+      "args": [
+        {
+          "kind": "StringLit",
+          "value": "",
+          "pos": {
+            "file": "cases/strings-basic.tenn",
+            "line": 2,
+            "col": 7
+          }
+        }
+      ]
+    },
+    {
+      "kind": "Command",
+      "name": "single",
+      "pos": {
+        "file": "cases/strings-basic.tenn",
+        "line": 3,
+        "col": 0
+      },
+      "args": [
+        {
+          "kind": "StringLit",
+          "value": "hello",
+          "pos": {
+            "file": "cases/strings-basic.tenn",
+            "line": 3,
+            "col": 8
+          }
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

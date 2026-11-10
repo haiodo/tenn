@@ -1,0 +1,63 @@
+{
+  "kind": "Statements",
+  "file": "cases/literals-numbers.tenn",
+  "children": [
+    {
+      "kind": "Command",
+      "name": "cmd",
+      "pos": {
+        "file": "cases/literals-numbers.tenn",
+        "line": 1,
+        "col": 0
+      },
+      "args": [
+        {
+          "kind": "IntLit",
+          "value": "1",
+          "pos": {
+            "file": "cases/literals-numbers.tenn",
+            "line": 1,
+            "col": 4
+          }
+        },
+        {
+          "kind": "IntLit",
+          "value": "-2",
+          "pos": {
+            "file": "cases/literals-numbers.tenn",
+            "line": 1,
+            "col": 6
+          }
+        },
+        {
+          "kind": "IntLit",
+          "value": "42",
+          "pos": {
+            "file": "cases/literals-numbers.tenn",
+            "line": 1,
+            "col": 9
+          }
+        },
+        {
+          "kind": "IntLit",
+          "value": "0",
+          "pos": {
+            "file": "cases/literals-numbers.tenn",
+            "line": 1,
+            "col": 12
+          }
+        },
+        {
+          "kind": "IntLit",
+          "value": "-0",
+          "pos": {
+            "file": "cases/literals-numbers.tenn",
+            "line": 1,
+            "col": 14
+          }
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

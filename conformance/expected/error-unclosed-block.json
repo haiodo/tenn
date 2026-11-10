@@ -1,0 +1,39 @@
+{
+  "kind": "Statements",
+  "file": "cases/error-unclosed-block.tenn",
+  "children": [
+    {
+      "kind": "Command",
+      "name": "a",
+      "pos": {
+        "file": "cases/error-unclosed-block.tenn",
+        "line": 1,
+        "col": 0
+      },
+      "args": [],
+      "block": [
+        {
+          "kind": "Command",
+          "name": "b",
+          "pos": {
+            "file": "cases/error-unclosed-block.tenn",
+            "line": 1,
+            "col": 4
+          },
+          "args": []
+        }
+      ],
+      "blockPos": {
+        "file": "cases/error-unclosed-block.tenn",
+        "line": 1,
+        "col": 2
+      }
+    }
+  ],
+  "errors": [
+    {
+      "code": "wrongBlockTerminator",
+      "message": "Wrong statements terminator"
+    }
+  ]
+}

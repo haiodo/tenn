@@ -1,0 +1,23 @@
+{
+  "name": "@haiodo/tenn",
+  "version": "0.1.0",
+  "description": "TENN — Tool-Extensible Node Notation: lexer, parser and printer for the format",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "test": "node --test 'test/**/*.test.ts'",
+    "typecheck": "tsc --noEmit"
+  },
+  "engines": {
+    "node": ">=24"
+  },
+  "devDependencies": {
+    "@types/node": "^24.19.0",
+    "typescript": "^7.0.2"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "kind": "Statements",
+  "file": "cases/hash-symbol.tenn",
+  "children": [
+    {
+      "kind": "Command",
+      "name": "color",
+      "pos": {
+        "file": "cases/hash-symbol.tenn",
+        "line": 1,
+        "col": 0
+      },
+      "args": [
+        {
+          "kind": "Ident",
+          "value": "#ff0000",
+          "pos": {
+            "file": "cases/hash-symbol.tenn",
+            "line": 1,
+            "col": 6
+          }
+        }
+      ]
+    },
+    {
+      "kind": "Command",
+      "name": "tag",
+      "pos": {
+        "file": "cases/hash-symbol.tenn",
+        "line": 2,
+        "col": 0
+      },
+      "args": [
+        {
+          "kind": "Ident",
+          "value": "#draft",
+          "pos": {
+            "file": "cases/hash-symbol.tenn",
+            "line": 2,
+            "col": 4
+          }
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,54 @@
+{
+  "kind": "Statements",
+  "file": "cases/strings-escapes.tenn",
+  "children": [
+    {
+      "kind": "Command",
+      "name": "a",
+      "pos": {
+        "file": "cases/strings-escapes.tenn",
+        "line": 1,
+        "col": 0
+      },
+      "args": [
+        {
+          "kind": "StringLit",
+          "value": "quote\"in",
+          "pos": {
+            "file": "cases/strings-escapes.tenn",
+            "line": 1,
+            "col": 3
+          }
+        },
+        {
+          "kind": "StringLit",
+          "value": "single'q",
+          "pos": {
+            "file": "cases/strings-escapes.tenn",
+            "line": 1,
+            "col": 15
+          }
+        },
+        {
+          "kind": "StringLit",
+          "value": "back\\\\slash",
+          "pos": {
+            "file": "cases/strings-escapes.tenn",
+            "line": 1,
+            "col": 27
+          }
+        },
+        {
+          "kind": "StringLit",
+          "value": "line\\n",
+          "pos": {
+            "file": "cases/strings-escapes.tenn",
+            "line": 1,
+            "col": 41
+          }
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

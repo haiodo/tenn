@@ -1,0 +1,95 @@
+{
+  "kind": "Statements",
+  "file": "cases/nested-blocks.tenn",
+  "children": [
+    {
+      "kind": "Command",
+      "name": "a",
+      "pos": {
+        "file": "cases/nested-blocks.tenn",
+        "line": 1,
+        "col": 0
+      },
+      "args": [],
+      "block": [
+        {
+          "kind": "Command",
+          "name": "b",
+          "pos": {
+            "file": "cases/nested-blocks.tenn",
+            "line": 1,
+            "col": 4
+          },
+          "args": [],
+          "block": [
+            {
+              "kind": "Command",
+              "name": "c",
+              "pos": {
+                "file": "cases/nested-blocks.tenn",
+                "line": 1,
+                "col": 8
+              },
+              "args": [],
+              "block": [
+                {
+                  "kind": "Command",
+                  "name": "d",
+                  "pos": {
+                    "file": "cases/nested-blocks.tenn",
+                    "line": 1,
+                    "col": 12
+                  },
+                  "args": [],
+                  "block": [
+                    {
+                      "kind": "Command",
+                      "name": "e",
+                      "pos": {
+                        "file": "cases/nested-blocks.tenn",
+                        "line": 1,
+                        "col": 16
+                      },
+                      "args": [
+                        {
+                          "kind": "IntLit",
+                          "value": "1",
+                          "pos": {
+                            "file": "cases/nested-blocks.tenn",
+                            "line": 1,
+                            "col": 18
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "blockPos": {
+                    "file": "cases/nested-blocks.tenn",
+                    "line": 1,
+                    "col": 14
+                  }
+                }
+              ],
+              "blockPos": {
+                "file": "cases/nested-blocks.tenn",
+                "line": 1,
+                "col": 10
+              }
+            }
+          ],
+          "blockPos": {
+            "file": "cases/nested-blocks.tenn",
+            "line": 1,
+            "col": 6
+          }
+        }
+      ],
+      "blockPos": {
+        "file": "cases/nested-blocks.tenn",
+        "line": 1,
+        "col": 2
+      }
+    }
+  ],
+  "errors": []
+}

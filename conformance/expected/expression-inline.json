@@ -1,0 +1,47 @@
+{
+  "kind": "Statements",
+  "file": "cases/expression-inline.tenn",
+  "children": [
+    {
+      "kind": "Command",
+      "name": "x",
+      "pos": {
+        "file": "cases/expression-inline.tenn",
+        "line": 1,
+        "col": 0
+      },
+      "args": [
+        {
+          "kind": "Expression",
+          "value": "1 + 2",
+          "pos": {
+            "file": "cases/expression-inline.tenn",
+            "line": 1,
+            "col": 4
+          }
+        }
+      ]
+    },
+    {
+      "kind": "Command",
+      "name": "y",
+      "pos": {
+        "file": "cases/expression-inline.tenn",
+        "line": 2,
+        "col": 0
+      },
+      "args": [
+        {
+          "kind": "Expression",
+          "value": "a.b('c') * 2",
+          "pos": {
+            "file": "cases/expression-inline.tenn",
+            "line": 2,
+            "col": 4
+          }
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

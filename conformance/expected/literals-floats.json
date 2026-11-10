@@ -1,0 +1,54 @@
+{
+  "kind": "Statements",
+  "file": "cases/literals-floats.tenn",
+  "children": [
+    {
+      "kind": "Command",
+      "name": "cmd",
+      "pos": {
+        "file": "cases/literals-floats.tenn",
+        "line": 1,
+        "col": 0
+      },
+      "args": [
+        {
+          "kind": "FloatLit",
+          "value": "3.5",
+          "pos": {
+            "file": "cases/literals-floats.tenn",
+            "line": 1,
+            "col": 4
+          }
+        },
+        {
+          "kind": "FloatLit",
+          "value": "-0.25",
+          "pos": {
+            "file": "cases/literals-floats.tenn",
+            "line": 1,
+            "col": 8
+          }
+        },
+        {
+          "kind": "FloatLit",
+          "value": "0.0",
+          "pos": {
+            "file": "cases/literals-floats.tenn",
+            "line": 1,
+            "col": 14
+          }
+        },
+        {
+          "kind": "FloatLit",
+          "value": "100.125",
+          "pos": {
+            "file": "cases/literals-floats.tenn",
+            "line": 1,
+            "col": 18
+          }
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

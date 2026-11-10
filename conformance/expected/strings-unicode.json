@@ -1,0 +1,74 @@
+{
+  "kind": "Statements",
+  "file": "cases/strings-unicode.tenn",
+  "children": [
+    {
+      "kind": "Command",
+      "name": "item",
+      "pos": {
+        "file": "cases/strings-unicode.tenn",
+        "line": 1,
+        "col": 0
+      },
+      "args": [
+        {
+          "kind": "StringLit",
+          "value": "Привет мир",
+          "pos": {
+            "file": "cases/strings-unicode.tenn",
+            "line": 1,
+            "col": 6
+          }
+        }
+      ],
+      "block": [
+        {
+          "kind": "Command",
+          "name": "title",
+          "pos": {
+            "file": "cases/strings-unicode.tenn",
+            "line": 1,
+            "col": 20
+          },
+          "args": [
+            {
+              "kind": "StringLit",
+              "value": "日本語 café",
+              "pos": {
+                "file": "cases/strings-unicode.tenn",
+                "line": 1,
+                "col": 27
+              }
+            }
+          ]
+        }
+      ],
+      "blockPos": {
+        "file": "cases/strings-unicode.tenn",
+        "line": 1,
+        "col": 18
+      }
+    },
+    {
+      "kind": "Command",
+      "name": "emoji",
+      "pos": {
+        "file": "cases/strings-unicode.tenn",
+        "line": 2,
+        "col": 0
+      },
+      "args": [
+        {
+          "kind": "StringLit",
+          "value": "🎁 gift",
+          "pos": {
+            "file": "cases/strings-unicode.tenn",
+            "line": 2,
+            "col": 7
+          }
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

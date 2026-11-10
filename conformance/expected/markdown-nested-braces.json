@@ -1,0 +1,27 @@
+{
+  "kind": "Statements",
+  "file": "cases/markdown-nested-braces.tenn",
+  "children": [
+    {
+      "kind": "Command",
+      "name": "doc",
+      "pos": {
+        "file": "cases/markdown-nested-braces.tenn",
+        "line": 1,
+        "col": 0
+      },
+      "args": [
+        {
+          "kind": "MarkdownLit",
+          "value": "a {b} c",
+          "pos": {
+            "file": "cases/markdown-nested-braces.tenn",
+            "line": 1,
+            "col": 6
+          }
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

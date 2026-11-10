@@ -1,0 +1,55 @@
+{
+  "kind": "Statements",
+  "file": "cases/empty-blocks.tenn",
+  "children": [
+    {
+      "kind": "Command",
+      "name": "a",
+      "pos": {
+        "file": "cases/empty-blocks.tenn",
+        "line": 1,
+        "col": 0
+      },
+      "args": [],
+      "block": [],
+      "blockPos": {
+        "file": "cases/empty-blocks.tenn",
+        "line": 1,
+        "col": 2
+      }
+    },
+    {
+      "kind": "Command",
+      "name": "b",
+      "pos": {
+        "file": "cases/empty-blocks.tenn",
+        "line": 2,
+        "col": 0
+      },
+      "args": [],
+      "block": [],
+      "blockPos": {
+        "file": "cases/empty-blocks.tenn",
+        "line": 2,
+        "col": 2
+      }
+    },
+    {
+      "kind": "Command",
+      "name": "c",
+      "pos": {
+        "file": "cases/empty-blocks.tenn",
+        "line": 3,
+        "col": 0
+      },
+      "args": [],
+      "block": [],
+      "blockPos": {
+        "file": "cases/empty-blocks.tenn",
+        "line": 3,
+        "col": 2
+      }
+    }
+  ],
+  "errors": []
+}

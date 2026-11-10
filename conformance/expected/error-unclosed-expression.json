@@ -1,0 +1,22 @@
+{
+  "kind": "Statements",
+  "file": "cases/error-unclosed-expression.tenn",
+  "children": [
+    {
+      "kind": "Command",
+      "name": "a",
+      "pos": {
+        "file": "cases/error-unclosed-expression.tenn",
+        "line": 1,
+        "col": 0
+      },
+      "args": []
+    }
+  ],
+  "errors": [
+    {
+      "code": "wrongBlockTerminator",
+      "message": "Unclosed expression terminal"
+    }
+  ]
+}

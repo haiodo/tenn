@@ -1,0 +1,32 @@
+{
+  "kind": "Statements",
+  "file": "cases/error-unclosed-string.tenn",
+  "children": [
+    {
+      "kind": "Command",
+      "name": "a",
+      "pos": {
+        "file": "cases/error-unclosed-string.tenn",
+        "line": 1,
+        "col": 0
+      },
+      "args": [
+        {
+          "kind": "StringLit",
+          "value": "unterminated\n",
+          "pos": {
+            "file": "cases/error-unclosed-string.tenn",
+            "line": 1,
+            "col": 3
+          }
+        }
+      ]
+    }
+  ],
+  "errors": [
+    {
+      "code": "EndOfFileDuringStringRead",
+      "message": "Unclosed string terminal"
+    }
+  ]
+}

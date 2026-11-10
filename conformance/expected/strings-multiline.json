@@ -1,0 +1,47 @@
+{
+  "kind": "Statements",
+  "file": "cases/strings-multiline.tenn",
+  "children": [
+    {
+      "kind": "Command",
+      "name": "text",
+      "pos": {
+        "file": "cases/strings-multiline.tenn",
+        "line": 1,
+        "col": 0
+      },
+      "args": [
+        {
+          "kind": "StringLit",
+          "value": "line one\nline two",
+          "pos": {
+            "file": "cases/strings-multiline.tenn",
+            "line": 1,
+            "col": 6
+          }
+        }
+      ]
+    },
+    {
+      "kind": "Command",
+      "name": "next",
+      "pos": {
+        "file": "cases/strings-multiline.tenn",
+        "line": 3,
+        "col": 0
+      },
+      "args": [
+        {
+          "kind": "IntLit",
+          "value": "1",
+          "pos": {
+            "file": "cases/strings-multiline.tenn",
+            "line": 3,
+            "col": 5
+          }
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,4 @@
+a 1 // line comment
+/* block comment */ b 2
+// whole line
+c 3

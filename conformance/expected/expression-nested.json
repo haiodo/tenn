@@ -1,0 +1,27 @@
+{
+  "kind": "Statements",
+  "file": "cases/expression-nested.tenn",
+  "children": [
+    {
+      "kind": "Command",
+      "name": "x",
+      "pos": {
+        "file": "cases/expression-nested.tenn",
+        "line": 1,
+        "col": 0
+      },
+      "args": [
+        {
+          "kind": "Expression",
+          "value": "(1 + 2) * (3 + 4)",
+          "pos": {
+            "file": "cases/expression-nested.tenn",
+            "line": 1,
+            "col": 4
+          }
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

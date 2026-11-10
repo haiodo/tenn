@@ -1,0 +1,67 @@
+{
+  "kind": "Statements",
+  "file": "cases/identifiers.tenn",
+  "children": [
+    {
+      "kind": "Command",
+      "name": "color",
+      "pos": {
+        "file": "cases/identifiers.tenn",
+        "line": 1,
+        "col": 0
+      },
+      "args": [
+        {
+          "kind": "Ident",
+          "value": "red",
+          "pos": {
+            "file": "cases/identifiers.tenn",
+            "line": 1,
+            "col": 6
+          }
+        }
+      ]
+    },
+    {
+      "kind": "Command",
+      "name": "path",
+      "pos": {
+        "file": "cases/identifiers.tenn",
+        "line": 2,
+        "col": 0
+      },
+      "args": [
+        {
+          "kind": "Ident",
+          "value": "my.lib.button",
+          "pos": {
+            "file": "cases/identifiers.tenn",
+            "line": 2,
+            "col": 5
+          }
+        }
+      ]
+    },
+    {
+      "kind": "Command",
+      "name": "имя",
+      "pos": {
+        "file": "cases/identifiers.tenn",
+        "line": 3,
+        "col": 0
+      },
+      "args": [
+        {
+          "kind": "Ident",
+          "value": "значение",
+          "pos": {
+            "file": "cases/identifiers.tenn",
+            "line": 3,
+            "col": 4
+          }
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

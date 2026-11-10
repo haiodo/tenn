@@ -1,0 +1,64 @@
+{
+  "kind": "Statements",
+  "file": "cases/block-in-middle.tenn",
+  "children": [
+    {
+      "kind": "Command",
+      "name": "cmd",
+      "pos": {
+        "file": "cases/block-in-middle.tenn",
+        "line": 1,
+        "col": 0
+      },
+      "args": [
+        {
+          "kind": "Ident",
+          "value": "a",
+          "pos": {
+            "file": "cases/block-in-middle.tenn",
+            "line": 1,
+            "col": 4
+          }
+        },
+        {
+          "kind": "Ident",
+          "value": "tail",
+          "pos": {
+            "file": "cases/block-in-middle.tenn",
+            "line": 1,
+            "col": 18
+          }
+        }
+      ],
+      "block": [
+        {
+          "kind": "Command",
+          "name": "inner",
+          "pos": {
+            "file": "cases/block-in-middle.tenn",
+            "line": 1,
+            "col": 8
+          },
+          "args": [
+            {
+              "kind": "IntLit",
+              "value": "1",
+              "pos": {
+                "file": "cases/block-in-middle.tenn",
+                "line": 1,
+                "col": 14
+              }
+            }
+          ]
+        }
+      ],
+      "blockIndex": 1,
+      "blockPos": {
+        "file": "cases/block-in-middle.tenn",
+        "line": 1,
+        "col": 6
+      }
+    }
+  ],
+  "errors": []
+}
